@@ -86,15 +86,6 @@
 
 ---
 
-### 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=maticrivo&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=maticrivo&theme=tokyonight&hide_border=true" alt="GitHub Streak"/>
-</p>
-
----
-
 <p align="center">
   <i>Always happy to connect and collaborate on interesting projects!</i>
 </p>

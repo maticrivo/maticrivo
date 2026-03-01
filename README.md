@@ -1,7 +1,10 @@
 <h1 align="center">Hi 👋, I'm Matias Crivolotti</h1>
-<h3 align="center">Engineering Leader & Architect | 15+ Years Building Scalable Systems</h3>
+<h3 align="center">Engineering Leader | 15+ Years Building Scalable Systems</h3>
 
 <p align="center">
+  <a href="https://github.com/maticrivo" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  </a>
   <a href="https://www.linkedin.com/in/matiascrivolotti" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
@@ -11,7 +14,7 @@
 
 ### 👨‍💻 About Me
 
-🔧 **Engineering Manager at PayPal** leading cross-functional teams building experimentation platforms and AI-powered sales tools.
+🔧 **Engineering Manager at PayPal** leading cross-functional teams building experimentation platforms and AI-powered sales tools for global operations.
 
 🌍 Based in **Tel Aviv, Israel** | 🇦🇷 Argentinian | 🇪🇺 EU Passport
 
@@ -21,10 +24,11 @@
 
 ### 🚀 What I Do
 
-- **Lead Teams:** Managing 6+ engineers across frontend, backend, and support
-- **Build Platforms:** Architected third-party data integration platforms at scale
-- **Drive Innovation:** Introduced AI capabilities to internal lead generation tools
-- **Own Infrastructure:** DevOps lead for CI/CD pipelines, Docker, and cloud infrastructure
+- **Lead Teams:** Managing cross-functional teams of 6+ engineers across frontend, backend, and support
+- **Build Platforms:** Architected cloud-native third-party data integration platforms at scale
+- **Drive Innovation:** Introduced AI capabilities to internal lead generation tools for global sales teams
+- **Own Infrastructure:** DevOps lead for CI/CD pipelines, Docker, and cloud infrastructure (AWS, GCP)
+- **Technical Excellence:** Led end-to-end UI/UX redesign of experimentation platforms
 - **Open Source:** Creator of [Magneto](https://github.com/EverythingMe/magneto) (Android test automation) & [Firefox OS Notes](https://github.com/EverythingMe/ffos-notes)
 
 ---
@@ -36,6 +40,7 @@
 <td valign="top" width="50%">
 
 #### Languages & Frameworks
+
 <p align="left">
   <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white" alt="Node.js"/>
   <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go"/>
@@ -50,6 +55,7 @@
 <td valign="top" width="50%">
 
 #### Infrastructure & Databases
+
 <p align="left">
   <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white" alt="AWS"/>
   <img src="https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=google-cloud&logoColor=white" alt="GCP"/>
@@ -58,6 +64,7 @@
   <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB"/>
   <img src="https://img.shields.io/badge/Cassandra-1287B1?style=flat-square&logo=apache-cassandra&logoColor=white" alt="Cassandra"/>
   <img src="https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white" alt="Jenkins"/>
+  <img src="https://img.shields.io/badge/ArgoCD-EF7B4D?style=flat-square&logo=argo&logoColor=white" alt="ArgoCD"/>
 </p>
 
 </td>
@@ -68,14 +75,14 @@
 
 ### 💼 Experience
 
-| Role | Company | Period |
-|------|---------|--------|
-| **Engineering Manager** | PayPal | 2024 - Present |
-| **Staff Engineer** | PayPal | 2021 - 2024 |
-| **Fullstack Engineer** | PayPal | 2018 - 2021 |
-| **Fullstack Engineer** | Zengaming | 2017 - 2018 |
-| **Frontend Engineer** | Neura | 2015 - 2017 |
-| **Frontend Engineer** | Everything.me | 2012 - 2015 |
+| Role                      | Company       | Period         |
+| ------------------------- | ------------- | -------------- |
+| **Engineering Manager**   | PayPal        | 2024 - Present |
+| **Senior Staff Engineer** | PayPal        | 2021 - 2024    |
+| **Fullstack Engineer**    | PayPal        | 2018 - 2021    |
+| **Fullstack Engineer**    | Zengaming     | 2017 - 2018    |
+| **Frontend Engineer**     | Neura         | 2015 - 2017    |
+| **Frontend Engineer**     | Everything.me | 2012 - 2015    |
 
 ---
 

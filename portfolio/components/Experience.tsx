@@ -8,25 +8,54 @@ const experiences = [
     title: "Engineering Manager",
     company: "PayPal",
     date: "2024 — Present",
-    details: "Leading cross-functional teams of 6+ engineers building experimentation platforms and AI-powered sales tools for global operations. Managing frontend, backend, and support teams.",
+    details: [
+      "Lead a cross-functional team of 6 engineers (Frontend, Backend, Support) building PayPal's experimentation platform and AI-powered sales prospecting tools",
+      "Foster high-performance team culture through mentorship, career development, and regular feedback",
+      "Collaborate with Product Managers and stakeholders to influence product strategy and align engineering roadmap with company objectives",
+      "Led end-to-end UI/UX redesign of experimentation platform, improving usability and visual consistency",
+      "Introduced AI capabilities to internal lead generation tools used by global sales teams",
+    ],
   },
   {
     title: "Senior Staff Engineer",
     company: "PayPal",
     date: "2021 — 2024",
-    details: "Architected cloud-native third-party data integration platforms at scale. Led end-to-end UI/UX redesign of experimentation platforms. Introduced AI capabilities to internal lead generation tools.",
+    details: [
+      "Led technical design docs and conducted thorough code reviews across the team",
+      "Architected and developed a cloud-native third-party data integration platform using microservices architecture, ensuring scalability and resilience",
+      "Owned CI/CD pipelines and infrastructure as team DevOps lead",
+      "Introduced streamlined dev lifecycle processes and sprint execution standards",
+      "Contributed to feature planning and documentation of the experimentation platform",
+    ],
   },
   {
     title: "Fullstack Engineer",
-    company: "Zengaming",
-    date: "2017 — 2018",
-    details: "Built fullstack features for the gaming platform. Worked on real-time matchmaking and tournament systems.",
+    company: "PayPal",
+    date: "2018 — 2021",
+    details: [
+      "Built internal web tools for big data teams",
+      "Created and maintained an internal React UI library",
+      "Helped create and maintain the default PayPal template for React applications",
+    ],
+  },
+  {
+    title: "Frontend Engineer",
+    company: "Neura",
+    date: "2015 — 2017",
+    details: [
+      "Lead frontend developer for all company-facing platforms",
+      "Built data visualization dashboards and mentored interns",
+    ],
   },
   {
     title: "Frontend Engineer",
     company: "Everything.me",
     date: "2012 — 2015",
-    details: "Developed mobile-first web applications. Created open source projects including Magneto (Android test automation) and Firefox OS Notes.",
+    details: [
+      "Developed internal tools, blogs, CMS, and test automation frameworks",
+      "Created the open-source Android test automation tool Magneto",
+      "Led development of Firefox OS Notes app with Evernote API integration",
+    ],
   },
 ];
 
@@ -66,12 +95,14 @@ export default function Experience() {
             </button>
             <div
               className={`overflow-hidden transition-all duration-300 ease-in-out ${
-                expanded === i ? "max-h-40 opacity-100 pb-5" : "max-h-0 opacity-0"
+                expanded === i ? "max-h-80 opacity-100 pb-5" : "max-h-0 opacity-0"
               }`}
             >
-              <p className="text-sm text-text-secondary leading-relaxed pl-6">
-                {exp.details}
-              </p>
+              <ul className="list-disc list-outside text-sm text-text-secondary leading-relaxed pl-10 space-y-1">
+                {exp.details.map((detail, j) => (
+                  <li key={j}>{detail}</li>
+                ))}
+              </ul>
             </div>
           </div>
         ))}

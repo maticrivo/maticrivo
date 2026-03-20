@@ -34,7 +34,7 @@ export default function Navigation() {
 
   return (
     <nav className="sticky top-0 z-50 bg-bg-primary border-b border-border px-8 md:px-20 py-5 flex justify-between items-center">
-      <div className={`flex items-center gap-2 transition-opacity duration-300 ${isScrolledPastHero ? 'opacity-100' : 'opacity-0'}`}>
+      <div className={`flex items-center gap-2 overflow-hidden transition-all duration-300 ${isScrolledPastHero ? 'w-auto opacity-100' : 'w-0 opacity-0'}`}>
         <Image
           src="https://www.gravatar.com/avatar/ff03fee9a056f057938db69d3458820b?s=64&d=mp"
           alt="Matias Crivolotti"
@@ -42,7 +42,7 @@ export default function Navigation() {
           height={32}
           className="rounded-full bg-border"
         />
-        <a href="#" className="text-sm font-medium text-text-primary">
+        <a href="#" className="text-base font-medium text-text-primary">
           Matias Crivolotti
         </a>
       </div>

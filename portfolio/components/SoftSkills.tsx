@@ -23,7 +23,7 @@ const skillCategories = [
 
 export default function SoftSkills() {
   return (
-    <section className="py-15 px-8 md:px-20 border-t border-border">
+    <section id="skills" className="py-15 px-8 md:px-20 border-t border-border">
       <h2 className="text-xs text-text-tertiary tracking-widest uppercase mb-6">
         Skills
       </h2>

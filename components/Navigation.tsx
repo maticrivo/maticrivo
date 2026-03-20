@@ -42,7 +42,7 @@ export default function Navigation() {
           height={32}
           className="rounded-full bg-border"
         />
-        <a href="#" className="text-base font-medium text-text-primary">
+        <a href="#" className="text-sm font-medium text-text-primary">
           Matias Crivolotti
         </a>
       </div>

@@ -76,7 +76,7 @@ export default function Navigation() {
             <a
               key={link.href}
               href={link.href}
-              className="text-sm text-text-secondary hover:text-text-primary transition-colors"
+            className="text-base text-text-secondary hover:text-text-primary transition-colors"
               onClick={() => setIsOpen(false)}
             >
               {link.label}

@@ -1,4 +1,4 @@
-import { Github, Linkedin } from "lucide-react";
+import { Github, Linkedin, Download } from "lucide-react";
 
 export default function Contact() {
   return (
@@ -6,7 +6,7 @@ export default function Contact() {
       <h2 className="text-xs text-text-tertiary tracking-widest uppercase mb-4">
         Let's Connect
       </h2>
-      <div className="flex gap-4">
+      <div className="flex gap-4 items-center">
         <a
           href="https://github.com/maticrivo"
           target="_blank"
@@ -24,6 +24,14 @@ export default function Contact() {
           aria-label="LinkedIn"
         >
           <Linkedin className="w-5 h-5 text-text-primary" />
+        </a>
+        <a
+          href="/Matias_Crivolotti_Resume.pdf"
+          download
+          className="w-10 h-10 rounded-full bg-border flex items-center justify-center hover:bg-text-tertiary transition-colors"
+          aria-label="Download Resume"
+        >
+          <Download className="w-5 h-5 text-text-primary" />
         </a>
       </div>
     </section>

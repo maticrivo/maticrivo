@@ -1,6 +1,15 @@
 "use client";
 
 import { useState } from "react";
+import { Menu, X } from "lucide-react";
+
+const links = [
+  { href: "#about", label: "About" },
+  { href: "#experience", label: "Experience" },
+  { href: "#tech-stack", label: "Tech Stack" },
+  { href: "#projects", label: "Projects" },
+  { href: "#contact", label: "Contact" },
+];
 
 export default function Navigation() {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,19 +21,23 @@ export default function Navigation() {
       </a>
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="flex flex-col gap-1 cursor-pointer"
-        aria-label="Menu"
+        className="cursor-pointer text-text-primary hover:text-text-secondary transition-colors"
+        aria-label={isOpen ? "Close menu" : "Open menu"}
       >
-        <span className="w-5 h-0.5 bg-text-primary rounded-sm transition-all" />
-        <span className="w-3.5 h-0.5 bg-text-primary rounded-sm transition-all" />
+        {isOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
       </button>
       {isOpen && (
         <div className="absolute top-full left-0 right-0 bg-bg-primary border-b border-border px-8 md:px-20 py-4 flex flex-col gap-3">
-          <a href="#about" className="text-sm text-text-secondary hover:text-text-primary transition-colors" onClick={() => setIsOpen(false)}>About</a>
-          <a href="#experience" className="text-sm text-text-secondary hover:text-text-primary transition-colors" onClick={() => setIsOpen(false)}>Experience</a>
-          <a href="#tech-stack" className="text-sm text-text-secondary hover:text-text-primary transition-colors" onClick={() => setIsOpen(false)}>Tech Stack</a>
-          <a href="#projects" className="text-sm text-text-secondary hover:text-text-primary transition-colors" onClick={() => setIsOpen(false)}>Projects</a>
-          <a href="#contact" className="text-sm text-text-secondary hover:text-text-primary transition-colors" onClick={() => setIsOpen(false)}>Contact</a>
+          {links.map((link) => (
+            <a
+              key={link.href}
+              href={link.href}
+              className="text-sm text-text-secondary hover:text-text-primary transition-colors"
+              onClick={() => setIsOpen(false)}
+            >
+              {link.label}
+            </a>
+          ))}
         </div>
       )}
     </nav>

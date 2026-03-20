@@ -18,8 +18,8 @@ export default function Navigation() {
   const [isScrolledPastHero, setIsScrolledPastHero] = useState(false);
 
   useEffect(() => {
-    const hero = document.getElementById('hero');
-    if (!hero) return;
+    const heroImage = document.getElementById('hero-image');
+    if (!heroImage) return;
 
     const observer = new IntersectionObserver(
       ([entry]) => {
@@ -28,7 +28,7 @@ export default function Navigation() {
       { threshold: 0 }
     );
 
-    observer.observe(hero);
+    observer.observe(heroImage);
     return () => observer.disconnect();
   }, []);
 

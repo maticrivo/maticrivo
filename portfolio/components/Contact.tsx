@@ -1,3 +1,5 @@
+import { Github, Linkedin } from "lucide-react";
+
 export default function Contact() {
   return (
     <section id="contact" className="py-15 px-8 md:px-20 border-t border-border flex flex-col items-center">
@@ -9,17 +11,19 @@ export default function Contact() {
           href="https://github.com/maticrivo"
           target="_blank"
           rel="noopener noreferrer"
-          className="px-5 py-2.5 border border-border rounded-md text-sm text-pill-text hover:bg-pill-bg transition-colors"
+          className="w-10 h-10 rounded-full bg-border flex items-center justify-center hover:bg-text-tertiary transition-colors"
+          aria-label="GitHub"
         >
-          GitHub
+          <Github className="w-5 h-5 text-text-primary" />
         </a>
         <a
           href="https://www.linkedin.com/in/matiascrivolotti"
           target="_blank"
           rel="noopener noreferrer"
-          className="px-5 py-2.5 border border-border rounded-md text-sm text-pill-text hover:bg-pill-bg transition-colors"
+          className="w-10 h-10 rounded-full bg-border flex items-center justify-center hover:bg-text-tertiary transition-colors"
+          aria-label="LinkedIn"
         >
-          LinkedIn
+          <Linkedin className="w-5 h-5 text-text-primary" />
         </a>
       </div>
     </section>

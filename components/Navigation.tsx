@@ -42,7 +42,7 @@ export default function Navigation() {
           height={32}
           className="rounded-full bg-border"
         />
-        <a href="#" className="text-sm font-medium text-text-primary">
+        <a href="#" className="text-md font-medium text-text-primary">
           Matias Crivolotti
         </a>
       </div>
@@ -53,7 +53,7 @@ export default function Navigation() {
           <a
             key={link.href}
             href={link.href}
-            className="text-sm text-text-secondary hover:text-text-primary transition-colors"
+            className="text-md text-text-secondary hover:text-text-primary transition-colors"
           >
             {link.label}
           </a>

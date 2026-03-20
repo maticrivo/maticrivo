@@ -15,7 +15,7 @@ export default function Experience() {
         {experiences.map((exp, i) => (
           <div
             key={i}
-            className="flex justify-between items-start pb-5 border-b border-border last:border-0"
+            className="flex flex-wrap justify-between items-start gap-x-4 pb-5 border-b border-border last:border-0"
           >
             <div>
               <h3 className="text-base font-medium text-text-primary">

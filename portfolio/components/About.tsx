@@ -4,7 +4,7 @@ export default function About() {
       <h2 className="text-xs text-text-tertiary tracking-widest uppercase mb-4">
         About
       </h2>
-      <p className="text-base text-text-secondary leading-relaxed max-w-xl">
+      <p className="text-base text-text-secondary leading-relaxed">
         Engineering Manager & Architect with 15+ years of experience, including 8+ years at PayPal driving technical excellence in high-scale fintech environments. Proven track record in people management and leading high-performance teams while remaining deeply hands-on. Passionate about technical mentorship, code quality, and fostering engineering culture.
       </p>
       <div className="flex flex-wrap gap-6 mt-5">

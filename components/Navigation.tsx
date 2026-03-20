@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import Image from "next/image";
 import { Menu, X } from "lucide-react";
 
 const links = [
@@ -33,9 +34,18 @@ export default function Navigation() {
 
   return (
     <nav className="sticky top-0 z-50 bg-bg-primary border-b border-border px-8 md:px-20 py-5 flex justify-between items-center">
-      <a href="#" className="text-base font-medium text-text-primary">
-        Matias Crivolotti
-      </a>
+      <div className={`flex items-center gap-2 transition-opacity duration-300 ${isScrolledPastHero ? 'opacity-100' : 'opacity-0'}`}>
+        <Image
+          src="https://www.gravatar.com/avatar/ff03fee9a056f057938db69d3458820b?s=64&d=mp"
+          alt="Matias Crivolotti"
+          width={32}
+          height={32}
+          className="rounded-full bg-border"
+        />
+        <a href="#" className="text-sm font-medium text-text-primary">
+          Matias Crivolotti
+        </a>
+      </div>
 
       {/* Desktop links */}
       <div className="hidden md:flex gap-6">

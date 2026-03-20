@@ -95,7 +95,7 @@ export default function Experience() {
             </button>
             <div
               className={`overflow-hidden transition-all duration-300 ease-in-out ${
-                expanded === i ? "max-h-80 opacity-100 pb-5" : "max-h-0 opacity-0"
+                expanded === i ? "max-h-[500px] opacity-100 pb-5" : "max-h-0 opacity-0"
               }`}
             >
               <ul className="list-disc list-outside text-sm text-text-secondary leading-relaxed pl-10 space-y-1">

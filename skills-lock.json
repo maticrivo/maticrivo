@@ -1,6 +1,16 @@
 {
   "version": 1,
   "skills": {
+    "Academic CV Builder": {
+      "source": "Paramchoudhary/ResumeSkills",
+      "sourceType": "github",
+      "computedHash": "a6105efce0f64a3506affe7a1edd9b007df2d16604197eab5a9dee7732b43dc9"
+    },
+    "Career Changer Translator": {
+      "source": "Paramchoudhary/ResumeSkills",
+      "sourceType": "github",
+      "computedHash": "d4cfd9a3ec8d62f7d417d553c83e114d30424d810ef3f7231f14021787241614"
+    },
     "Cover Letter Generator": {
       "source": "Paramchoudhary/ResumeSkills",
       "sourceType": "github",
@@ -10,6 +20,11 @@
       "source": "Paramchoudhary/ResumeSkills",
       "sourceType": "github",
       "computedHash": "5032bf37d0774c28140f434035e1dc171b2a61b64ad3b3ac1b7e82ef3454c617"
+    },
+    "Executive Resume Writer": {
+      "source": "Paramchoudhary/ResumeSkills",
+      "sourceType": "github",
+      "computedHash": "d916771824cbff7bc73b47ab52449d683f0f641adaef478f756f38c54e5d560d"
     },
     "Interview Prep Generator": {
       "source": "Paramchoudhary/ResumeSkills",
